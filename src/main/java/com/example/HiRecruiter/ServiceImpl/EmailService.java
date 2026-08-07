@@ -1,4 +1,4 @@
-package ServiceImpl;
+package com.example.HiRecruiter.ServiceImpl;
 
 import org.springframework.stereotype.Service;
 
