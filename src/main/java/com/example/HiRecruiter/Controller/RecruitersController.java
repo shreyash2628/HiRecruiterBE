@@ -1,27 +1,24 @@
-package Controller;
+package com.example.HiRecruiter.Controller;
 
 
-import Entities.Recruiter;
-import ServiceImpl.EmailService;
-import ServiceImpl.RecruiterService;
+import com.example.HiRecruiter.ServiceImpl.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/recruiters")
 public class RecruitersController {
 
-    @Autowired
-    private RecruiterService recruiterService;
+//    @Autowired
+//    private RecruiterService recruiterService;
 
     @Autowired
     private EmailService emailService;
 
-    @PostMapping("/add")
-    public ResponseEntity<Recruiter> addRecruiter(@RequestBody Recruiter recruiter) {
-        return ResponseEntity.ok(recruiterService.addRecruiter(recruiter));
-    }
+//    @PostMapping("/add")
+//    public ResponseEntity<Recruiter> addRecruiter(@RequestBody Recruiter recruiter) {
+//        return ResponseEntity.ok(recruiterService.addRecruiter(recruiter));
+//    }
 //
 //    @GetMapping("/all")
 //    public ResponseEntity<List<Recruiter>> getAllRecruiters() {
