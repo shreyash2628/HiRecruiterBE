@@ -1,4 +1,4 @@
-package com.example.HiRecruiter.Controller;
+package com.example.HiRecruiter.controller;
 
 import com.google.cloud.firestore.Firestore;
 import org.springframework.beans.factory.annotation.Autowired;
