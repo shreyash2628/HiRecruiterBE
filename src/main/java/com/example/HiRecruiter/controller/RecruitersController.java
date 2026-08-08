@@ -1,7 +1,7 @@
-package com.example.HiRecruiter.Controller;
+package com.example.HiRecruiter.controller;
 
 
-import com.example.HiRecruiter.ServiceImpl.EmailService;
+import com.example.HiRecruiter.service.EmailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
